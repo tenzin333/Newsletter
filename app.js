@@ -41,7 +41,7 @@ app.post("/",function(req,res){
 
         const option ={
             method:"POST",
-            auth: "thing:702cda8658f5813e31b8006ea26630"
+            auth: "thing:702cda8658f5813e31b8006ea26630ed-us1"
         }
 
 
