@@ -41,7 +41,7 @@ app.post("/",function(req,res){
 
         const option ={
             method:"POST",
-            auth: "thing:702cda8658f5813e31b8006ea26630ed-us1"
+            auth: "thing:api_key"
         }
 
 
@@ -85,6 +85,3 @@ app.get("/",function(req,res){
 app.listen(process.env.PORT || 3000,function(){
     console.log("server running on port:3000");
 })
-
-
-//apiKEy:702cda8658f5813e31b8006ea26630ed-us1
